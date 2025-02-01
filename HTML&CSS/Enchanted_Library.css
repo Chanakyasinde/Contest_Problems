@@ -1,0 +1,25 @@
+h1{
+    color: indigo;
+    text-align: center;
+}
+#fiction{
+    background-color:  #f4a460;
+}
+#non-fiction{
+    background-color: #ffa07a;
+}
+.shelf{
+    background-color: #deb887;
+    border: 2px solid #8b4513;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+.library p{
+    color: #555;
+    font-style: italic;
+}
+h1 ~ p{
+    border: 1px dashed #4b0082;
+    padding: 5px;
+}
